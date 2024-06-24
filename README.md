@@ -1,30 +1,42 @@
-# React + TypeScript + Vite
+# 10Fix IT Service Provider Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the 10Fix IT Service Provider frontend application! This application is built using React and TypeScript to offer a seamless experience for customers seeking various IT hardware repair services, including:
 
-Currently, two official plugins are available:
+- Computer and Laptop repair
+- Scanner and Printer repair
+- Network Device repair
+- Attendance Device repair
+- Server Device repair
+- Others Device repair
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Visit our website: [https://10fix.com.bd/](https://10fix.com.bd/)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- User-friendly interface for requesting IT hardware repair services
+- Service categorization for easy navigation
+- Responsive design for optimal viewing on various devices
+- Contact form for customer inquiries
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+These instructions will help you set up a copy of the project on your local machine for development and testing purposes.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Prerequisites
+
+Make sure you have the following installed on your local machine:
+
+- Node.js (v14.x or later)
+- npm (v6.x or later) or Yarn (v1.x or later)
+- Git
+
+### Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/muh-arifulislam/10fix-frontend.git
+   cd 10fix-frontend
+   npm install
+   npm run dev
+   ```
