@@ -283,7 +283,7 @@ const Navbar = () => {
                         to={"/terms-and-condition"}
                         className={"hover:underline"}
                       >
-                        সাহায্য ও সহায়তা
+                        টার্মস এন্ড কন্ডিশন
                       </NavLink>
                     </li>
                   </ul>
