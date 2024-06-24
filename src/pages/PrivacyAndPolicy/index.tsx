@@ -6,42 +6,22 @@ const PrivacyAndPolicy = () => {
           <h1 className="text-2xl font-bold text-center mt-[10px] mb-[6px]">
             Privacy Policy
           </h1>
-          <p>
-            In order for the website to provide a safe and useful service, it is
-            important for Bikroy to collect, use, and share personal
-            information.
+          <p className="text-center">
+            This Website collects certain information to provide a safe and
+            useful service.
           </p>
           <span className="inline-block w-full h-[1px] bg-slate-300 mt-10"></span>
           <div className="my-8">
             <h2 className="mb-3 text-lg font-semibold">Collection</h2>
             <p className="mb-3">
-              Information posted on Bikroy is publicly available. If you choose
-              to provide us with personal information, you are consenting to the
-              transfer and storage of that information on our servers. We
-              collect and store the following personal information:
+              If you choose to provide us with personal information, you are
+              consenting to the transfer and storage of that information on our
+              servers. We collect and store the following personal information:
             </p>
             <ul className="list-disc ml-10">
               <li className="mb-3">
                 Email address, contact information, and (depending on the
-                service used) sometimes financial information.
-              </li>
-              <li className="mb-3">
-                Computer sign-on data, statistics on page views, traffic to and
-                from Bikroy and response to advertisements.
-              </li>
-              <li className="mb-3">
-                Other information, including users' IP address and standard web
-                log information.
-              </li>
-            </ul>
-          </div>
-          <div className="my-8">
-            <h2 className="mb-3 text-lg font-semibold">Use</h2>
-            <p className="mb-3">We use users' personal information to:</p>
-            <ul className="list-disc ml-10">
-              <li className="mb-3">Provide our services</li>
-              <li className="mb-3">
-                Resolve disputes, collect fees, and troubleshoot problems
+                service used).
               </li>
               <li className="mb-3">
                 Other information, including users' IP address and standard web
@@ -94,13 +74,13 @@ const PrivacyAndPolicy = () => {
             </h5>
             <p className="mb-3">
               If at any time you wish to have your information reviewed or
-              removed from our active databases, please contact us at
+              removed from our active databases, please contact us at{" "}
               <a
                 className="px-1 text-blue-600 hover:underline"
                 href="mailto:support@10fix.com.bd"
               >
                 support@10fix.com.bd
-              </a>
+              </a>{" "}
               Additionally, you will be able to unsubscribe anytime by clicking
               on the unsubscribe link at the bottom of all our email
               communications.

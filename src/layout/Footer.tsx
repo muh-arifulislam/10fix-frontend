@@ -51,7 +51,8 @@ const Footer = () => {
             </a>
 
             <a
-              href="tel:+8801618634321"
+              aria-label="Chat on WhatsApp"
+              href="https://wa.me/8801618634321"
               className="inline-block bg-green-600 p-[10px] rounded-sm"
             >
               <FaWhatsapp color="white" size={17} />

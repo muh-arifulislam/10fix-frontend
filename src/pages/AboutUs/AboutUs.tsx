@@ -14,13 +14,9 @@ const AboutUs = () => {
       <div className="custom-container my-28 ">
         <FadeUp>
           <div className="text-center">
-            <h6 className="text-[46px] font-medium text-[#000000] mb-4 ">
+            <h6 className="text-[46px] font-medium text-[#000000] mb-10">
               আমরা নিরন্তর কাজ করে চলেছি
             </h6>
-            <h5 className="text-slate-600 text-xl font-medium mb-[60px]">
-              কর্মব্যস্ত সময়কে আরো সহজ করার জন্য একটি ডিজিটাল প্ল্যাটফর্ম তৈরি
-              করে বাংলাদেশকে সামনে এগিয়ে নিয়ে যাওয়া।
-            </h5>
           </div>
         </FadeUp>
         <FadeUp>

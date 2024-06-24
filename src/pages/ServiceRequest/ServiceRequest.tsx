@@ -42,6 +42,7 @@ const ServiceRequest = () => {
     "শের-ই-বাংলা নগর",
     "তেজগাঁও শিল্প এলাকা",
     "ওয়ারি",
+    "অন্যান্য",
   ];
 
   interface IFormInput {
