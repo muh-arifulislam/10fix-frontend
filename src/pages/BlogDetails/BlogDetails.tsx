@@ -6,7 +6,7 @@ const BlogDetails = () => {
   const { id } = useParams();
   const [blog, setBlog] = useState<null | TBlog>(null);
   useEffect(() => {
-    fetch(`https://server.10fix.com.bd/api/v1/blogs/${id}`)
+    fetch(`https://10fix.vercel.app/api/v1/blogs/${id}`)
       .then((res) => res.json())
       .then((data) => {
         if (data.success) {

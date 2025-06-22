@@ -13,7 +13,7 @@ const ReviewSection = () => {
   const [error, setError] = useState<string | null>(null);
   useEffect(() => {
     setLoading(true);
-    fetch("https://server.10fix.com.bd/api/v1/reviews?limit=10")
+    fetch("https://10fix.vercel.app/api/v1/reviews?limit=10")
       .then((res) => res.json())
       .then((data) => {
         if (data.success) {

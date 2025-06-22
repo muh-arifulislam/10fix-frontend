@@ -18,9 +18,7 @@ const Blogs = () => {
   useEffect(() => {
     setLoading(true);
     const fetchData = () => {
-      fetch(
-        `https://server.10fix.com.bd/api/v1/blogs?page=${current}&limit=${18}`
-      )
+      fetch(`https://10fix.vercel.app/api/v1/blogs?page=${current}&limit=${18}`)
         .then((res) => res.json())
         .then((data: TServerResponse<TBlog[]>) => {
           if (data.success) {

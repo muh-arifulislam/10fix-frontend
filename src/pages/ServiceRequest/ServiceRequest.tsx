@@ -81,7 +81,7 @@ const ServiceRequest = () => {
     reset();
     setSelectedServices([]);
     setDate(new Date());
-    fetch("https://server.10fix.com.bd/api/v1/orders/place-order", {
+    fetch("https://10fix.vercel.app/api/v1/orders/place-order", {
       method: "POST",
       headers: {
         "content-type": "application/json",

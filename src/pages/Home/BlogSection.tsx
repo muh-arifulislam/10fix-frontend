@@ -18,7 +18,7 @@ const BlogSection = () => {
   const [error, setError] = useState<string | null>(null);
   useEffect(() => {
     setLoading(true);
-    fetch("https://server.10fix.com.bd/api/v1/blogs?limit=6")
+    fetch("https://10fix.vercel.app/api/v1/blogs?limit=6")
       .then((res) => res.json())
       .then((data) => {
         if (data.success) {

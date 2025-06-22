@@ -13,7 +13,7 @@ const ContactUs = () => {
 
   const onSubmit: SubmitHandler<IFormInput> = async (data) => {
     const toastId = toast.loading("আপনার মেসেজটি পাঠানো হচ্ছে!");
-    fetch("https://server.10fix.com.bd/api/v1/messages/sent-customer-email", {
+    fetch("https://10fix.vercel.app/api/v1/messages/sent-customer-email", {
       method: "POST",
       headers: {
         "content-type": "application/json",
