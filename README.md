@@ -9,7 +9,7 @@ Welcome to the 10Fix IT Service Provider frontend application! This application 
 - Server Device repair
 - Others Device repair
 
-Visit our website: [https://10fix.com.bd/](https://10fix.com.bd/)
+Visit our website: [https://10fix.netlify.app/](https://10fix.netlify.app/)
 
 ## Features
 
