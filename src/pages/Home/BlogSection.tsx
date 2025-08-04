@@ -48,7 +48,7 @@ const BlogSection = () => {
   if (error) {
     content = (
       <>
-        <div className="custom-container my-10">
+        <div className="container mx-auto px-4 md:px-0 my-10">
           <div>
             <div className="text-center">
               <h5 className="text-3xl">Oops!</h5>
@@ -64,7 +64,7 @@ const BlogSection = () => {
 
   return (
     <section className="">
-      <div className="custom-container">
+      <div className="container mx-auto px-4 md:px-0">
         <div className="">
           <div className="flex justify-center sm:justify-between items-center">
             <h2 className="text-[34px] section-title alt">ব্লগ সমূহ </h2>

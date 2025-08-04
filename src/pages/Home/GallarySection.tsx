@@ -11,38 +11,9 @@ const GallarySection = () => {
   const screens = useBreakpoint();
   return (
     <section>
-      <div className="custom-container">
-        {/* <div className="flex flex-row flex-wrap justify-between gap-0 sm:gap-[40px] p-3">
-          <div className="w-[40%] sm:w-auto mb-[34px]">
-            <img
-              height="448"
-              className="h-full w-auto sm:h-[224px] max-w-full"
-              src={image5}
-              alt=""
-            />
-          </div>
-          <div className="w-[60%] sm:w-auto mb-[34px]">
-            <img
-              width="666"
-              height="448"
-              className="h-auto w-auto sm:h-[224px] max-w-full"
-              src={image2}
-              alt=""
-            />
-          </div>
-          <div className="w-[100%] sm:w-auto mb-[34px]">
-            <img
-              width="846"
-              height="448"
-              className="h-[224px] w-auto max-w-[100%]"
-              src={image6}
-              alt=""
-            />
-          </div>
-        </div> */}
-
-        <div className="mb-[100px]">
-          <h2 className="section-title text-center ">
+      <div className="container mx-auto px-4 md:px-0 py-12">
+        <div className="">
+          <h2 className="section-title text-center">
             কাজ হোক বিরক্তিমুক্ত #SaveYourTime!
           </h2>
         </div>

@@ -42,7 +42,7 @@ const ReviewSection = () => {
 
   if (error) {
     content = (
-      <div className="custom-container my-10">
+      <div className="container mx-auto px-4 md:px-0 my-10">
         <div>
           <div className="text-center">
             <h5 className="text-3xl">Oops!</h5>
@@ -57,7 +57,7 @@ const ReviewSection = () => {
 
   return (
     <section className="mt-[120px]">
-      <div className="custom-container">
+      <div className="container mx-auto px-4 md:px-0">
         <div className="">
           <h2 className="section-title text-center">আমাদের নিয়ে লেখা হয়েছে</h2>
         </div>

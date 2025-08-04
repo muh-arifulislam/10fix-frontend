@@ -40,7 +40,7 @@ const ClientSection = () => {
   const breakPoint = useBreakpoint();
   return (
     <section className="my-[120px]">
-      <div className="custom-container">
+      <div className="container mx-auto px-4 md:px-0">
         <div>
           <h2 className="section-title text-center">
             আমাদের কর্পোরেট ক্লায়েন্ট

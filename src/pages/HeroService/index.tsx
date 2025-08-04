@@ -55,7 +55,7 @@ const HeroService = () => {
         style={{
           backgroundImage: `url(${pageBg})`,
         }}
-        className={`w-full lg:md:sm:h-[100vh] h-auto lg:md:sm:bg-cover bg-no-repeat lg:md:sm:bg-center bg-right-top relative mb-0 sm:mb-[150px] ${
+        className={`w-full max-w-screen-2xl mx-auto lg:md:sm:h-[560px] h-auto lg:md:sm:bg-cover bg-no-repeat lg:md:sm:bg-center bg-right-top relative mb-0 sm:mb-[150px] ${
           breakPoint === "xs" ? "bg-sizeTB" : "bg-full"
         }`}
       >
@@ -124,8 +124,8 @@ const HeroService = () => {
         </section>
       </FadeUp>
       <FadeUp>
-        <section className="my-[100px]">
-          <div className="custom-container">
+        <section className="container mx-auto px-4 md:px-0 my-[100px] ">
+          <div className="">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-[40px]">
               <div className="w-[90%] mx-auto">
                 <h2 className="text-[32px] leading-10 mb-5">

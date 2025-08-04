@@ -6,7 +6,7 @@ const Header = () => {
     <section>
       <Headroom style={{ zIndex: "99999999999" }}>
         <div
-          className="w-full h-auto bg-white shadow-md grid grid-cols-1 items-center relative"
+          className="w-full h-auto bg-white shadow-md relative"
           style={{ zIndex: "999999999999" }}
         >
           <Navbar></Navbar>

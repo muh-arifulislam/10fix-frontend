@@ -1,7 +1,6 @@
 import SectionHeader from "../../components/ui/SectionHeader";
 import ClientSection from "../Home/ClientSection";
 
-import aboutImg from "../../assets/images/context-about.jpg";
 import activitiesImg from "../../assets/images/activities.jpg";
 import FadeUp from "../../components/FadeUp";
 import FadeRight from "../../components/FadeRight";
@@ -86,29 +85,6 @@ const AboutUs = () => {
             </div>
           </FadeLeft>
         </div>
-        <FadeUp>
-          <div>
-            <div className="relative mt-8 sm:mt-[100px]">
-              <img className="hidden sm:inline" src={aboutImg} alt="" />
-              <div className="relative sm:absolute bg-black sm:bg-transparent top-0 left-0 w-full h-full">
-                <div className="h-full w-full py-5 px-8 sm:py-[60px] sm:px-[85px] text-white flex flex-col justify-between">
-                  <p className="sm:w-[50%] sm:text-2xl  leading-[18px]  sm:leading-[44px] tracking-normal mb-3">
-                    আমরা সব সময় বিশ্বাস করি ডিজিটাল বাংলাদেশ গড়ার লক্ষ্যে
-                    ডিজিটাল প্ল্যাটফর্ম অনেক ভুমিকা রাখে। কর্ম সময় বৃদ্ধি এবং
-                    মেধা বিকাশের জন্য ডিজিটাল প্ল্যাটফর্ম অনেক গুরুত্বপূর্ণ। ১০
-                    ফিক্স একটি ডিজিটাল সেবা প্রদানকারী প্ল্যাটফর্ম, যে সেবা সমূহ
-                    নিয়ে আমরা আছি আপনার দরজা পর্যন্ত। কর্ম সময় বৃদ্ধি এবং মেধা
-                    বিকাশের সব সময় আপনার সাথে।
-                  </p>
-                  <div>
-                    <h4 className="sm:text-3xl">রাকিব মাহমুদ</h4>
-                    <span className="sm:text-md">পরিচালক, ১০ফিক্স</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </FadeUp>
       </div>
       <ClientSection />
     </>

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="w-full max-w-screen-2xl mx-auto">
       <div
         className="h-[400px] w-full bg-fit bg-left-bottom sm:bg-left-bottom relative bg-cover"
         style={{
@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
           <div className="flex gap-2">
             <a
-              href="https://www.facebook.com/10fixservice/"
+              href="https://www.facebook.com/muh.arifulislam/"
               target="_blank"
               className="inline-block bg-blue-600 p-[10px] rounded-sm"
             >
@@ -52,13 +52,13 @@ const Footer = () => {
 
             <a
               aria-label="Chat on WhatsApp"
-              href="https://wa.me/8801618634321"
+              href="https://wa.me/8801306560747"
               className="inline-block bg-green-600 p-[10px] rounded-sm"
             >
               <FaWhatsapp color="white" size={17} />
             </a>
             <a
-              href="https://www.linkedin.com/company/103600948/admin/feed/posts/"
+              href="https://www.linkedin.com/in/muh-arifulislam/"
               target="_blank"
               className="inline-block bg-blue-500 p-[10px] rounded-sm"
             >
@@ -67,7 +67,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-sm p-4 lg:md:text-start text-center text-[#000000]">
+      <p className="text-sm p-4 text-center text-[#000000]">
         © {new Date().getFullYear()}
         <span className="font-bold"> 10fix</span>. All rights reserved.
       </p>

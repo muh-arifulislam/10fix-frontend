@@ -41,10 +41,10 @@ const ContactUs = () => {
   };
 
   return (
-    <section className="mb-32">
+    <section className="w-full max-w-screen-2xl mx-auto mb-32">
       <div
         id="map"
-        className="relative h-[80vh] overflow-hidden bg-cover bg-[50%] bg-no-repeat"
+        className="relative h-[400px] overflow-hidden bg-cover bg-[50%] bg-no-repeat"
       >
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.4283290677986!2d90.37124534122287!3d23.803363210822695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c0d373ff897d%3A0x3d95c53d3069ff25!2s329%20Senpara%20Parbata%20Ln%2C%20Dhaka%201216!5e0!3m2!1sen!2sbd!4v1715054456509!5m2!1sen!2sbd"

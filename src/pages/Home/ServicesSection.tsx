@@ -3,8 +3,8 @@ import { servicesData } from "../../data";
 
 const ServicesSection = () => {
   return (
-    <section className="mt-[50px] mb-[120px]" id="services">
-      <div className="custom-container">
+    <section className="container mx-auto px-4 md:px-0 py-12" id="services">
+      <div className="">
         <div className="">
           <h2 className="text-center section-title">সার্ভিস সমূহ</h2>
         </div>

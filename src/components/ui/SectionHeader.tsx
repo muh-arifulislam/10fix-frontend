@@ -10,7 +10,7 @@ const SectionHeader = ({ title }: { title: string }) => {
   paths.pop();
   return (
     <div
-      className="relative z-0 lg:py-[140px] md:py-[140px] py-[80px] overlay-primary "
+      className="w-full max-w-screen-2xl mx-auto relative z-0 lg:py-[140px] md:py-[140px] py-[80px] section-header-bg"
       style={{
         background: `url(${sectionBg})`,
         backgroundPosition: "center",
@@ -18,8 +18,10 @@ const SectionHeader = ({ title }: { title: string }) => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="z-10">
-        <h2 className="text-center lg:md:text-5xl text-xl font-semibold text-white mb-6">
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-red-400/10 z-0 pointer-events-none" />
+      <div className="z-10 relative">
+        <h2 className="text-center lg:md:text-5xl text-xl font-semibold text-slate-900 mb-6">
           {title}
         </h2>
         <div
@@ -30,13 +32,13 @@ const SectionHeader = ({ title }: { title: string }) => {
           <span className="flex items-center gap-1">
             <span>
               <Link
-                className="text-lg font-medium text-white transition hover:text-amber-400"
+                className="text-lg font-medium text-slate-700 transition hover:text-amber-400"
                 to="/"
               >
                 হোম
               </Link>
             </span>
-            <span className="text-lg text-white mt-1">
+            <span className="text-lg text-slate-600 mt-1">
               <BiChevronsRight />
             </span>
             {paths.map((path, idx) => (

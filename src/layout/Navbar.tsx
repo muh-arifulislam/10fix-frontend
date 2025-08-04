@@ -77,10 +77,10 @@ const Navbar = () => {
 
   return (
     <div className="">
-      <div className={`custom-container`} style={{ padding: "0" }}>
+      <div className={`container mx-auto`}>
         <nav>
           <div
-            className="grid grid-cols-2 lg:grid-cols-3 items-center justify-items-end lg:justify-items-start bg-white p-[10px] sm:p-0"
+            className="grid grid-cols-2 lg:grid-cols-3 items-center justify-items-end lg:justify-items-start bg-white p-4 sm:p-0"
             style={{ zIndex: "9999999" }}
           >
             <div
@@ -138,7 +138,7 @@ const Navbar = () => {
             <div className="w-full hidden md:flex justify-end">
               <div className="flex items-center">
                 <a
-                  href="tel:+8801618634321"
+                  href="tel:+8801306560747"
                   className="flex items-center"
                   onMouseOver={() => setHoverCallBtn(true)}
                   onMouseOut={() => setHoverCallBtn(false)}
@@ -155,7 +155,7 @@ const Navbar = () => {
                     <span className="py-1 bg-slate-100 pl-8 pr-4 rounded-r-full text-sm">
                       এখনই কল করুন!
                     </span>
-                    <span className="pl-8 pr-4 text-sm">01618-634321</span>
+                    <span className="pl-8 pr-4 text-sm">01306-560747</span>
                   </div>
                 </a>
               </div>
@@ -293,14 +293,14 @@ const Navbar = () => {
               <li className="p-[15px] border-b">
                 <div className="">
                   <a
-                    href="tel:+8801618634321"
+                    href="tel:+8801306560747"
                     className="flex items-center justify-center gap-2"
                   >
                     <span>
                       <BiSupport size={20} />
                     </span>
                     <span className="text-[17px]">হেল্পলাইন</span>
-                    <span className="text-[17px]">01618634321</span>
+                    <span className="text-[17px]">01306560747</span>
                   </a>
                 </div>
               </li>
